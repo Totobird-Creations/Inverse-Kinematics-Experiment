@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://dfiv5ngty26yv"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_8yjbh"]
+[ext_resource type="PackedScene" uid="uid://dotepiflv1ubb" path="res://nodes.tscn" id="1_14axw"]
+
+[node name="main" type="Node2D"]
+script = ExtResource("1_8yjbh")
+
+[node name="nodes" parent="." instance=ExtResource("1_14axw")]
+
+[node name="nodes2" parent="." instance=ExtResource("1_14axw")]
+
+[node name="nodes3" parent="." instance=ExtResource("1_14axw")]
+
+[node name="nodes4" parent="." instance=ExtResource("1_14axw")]
+
+[node name="nodes5" parent="." instance=ExtResource("1_14axw")]
+
+[node name="nodes6" parent="." instance=ExtResource("1_14axw")]
+
+[node name="nodes7" parent="." instance=ExtResource("1_14axw")]
+
+[node name="nodes8" parent="." instance=ExtResource("1_14axw")]
+
+[node name="camera" type="Camera2D" parent="."]
+visible = false
+zoom = Vector2(0.75, 0.75)
