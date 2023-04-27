@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://dotepiflv1ubb"]
+[gd_scene load_steps=6 format=3 uid="uid://dotepiflv1ubb"]
 
 [ext_resource type="Script" path="res://nodes.gd" id="1_q3ets"]
 [ext_resource type="PackedScene" uid="uid://2koii2e6vgw8" path="res://node.tscn" id="2_4clm6"]
@@ -7,6 +7,9 @@
 [sub_resource type="Curve" id="Curve_mbwnc"]
 _data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
 point_count = 2
+
+[sub_resource type="Gradient" id="Gradient_7jprj"]
+colors = PackedColorArray(1, 1, 1, 0.1, 1, 1, 1, 1)
 
 [node name="nodes" type="Node2D"]
 script = ExtResource("1_q3ets")
@@ -350,6 +353,7 @@ color = Color(0, 0.5, 1, 1)
 unique_name_in_owner = true
 width = 16.0
 width_curve = SubResource("Curve_mbwnc")
+gradient = SubResource("Gradient_7jprj")
 joint_mode = 2
 begin_cap_mode = 2
 end_cap_mode = 2
